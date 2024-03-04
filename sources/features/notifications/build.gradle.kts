@@ -33,7 +33,7 @@ android {
 
 dependencies {
 
-    implementation(project(path = ":sources:base:core"))
+    implementation(project(path = ":core"))
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")

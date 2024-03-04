@@ -30,3 +30,9 @@ project(":notifications").projectDir = File(rootDir, "sources/features/notificat
 
 include(":network")
 project(":network").projectDir = File(rootDir, "sources/base/network")
+
+include(":repo")
+project(":repo").projectDir = File(rootDir, "sources/base/repo")
+
+include(":mainscreen")
+project(":mainscreen").projectDir = File(rootDir, "sources/features/mainscreen")
